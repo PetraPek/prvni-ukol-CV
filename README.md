@@ -9,7 +9,7 @@ vlož vlastní fotku
 napiš tam svoje celé opravdové jméno (zbytek ať je klidně kompletní fabulace, pokud se nechceš svěřovat)
 použij základní značky - nadpisy, odstavce, odrážkový nebo číslovaný seznam, případně tabulku
 přidej odkazy na svůj LinkedIn, Facebook, Twitter, blog, apod. (pokud máš)
-vytvoř na stránce hlavičku, nějaké sekce s obsahem, a patičku. Použij sémantické značky <header>, <footer>, <section>
+vytvoř na stránce hlavičku, nějaké sekce s obsahem, a patičku. Použij sémantické značky header, footer, section
 podle vlastního uvážení přidej libovolné další značky, jak se ti bude hodit
 
 Nastylování stránky:
