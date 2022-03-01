@@ -11,24 +11,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!--úvod-->
-<header>
-<h1>Petra Pekařová</h1>
+
+
+<!--hlavička stránky-->
+<header class="hlavicka">
+    <h1>Petra Pekařová</h1>
 </header>
 
 <!--Menu-->
-<ul>
-    <li>O mně</li>
-    <li>Praxe</li>
-    <li>Vzdělání</li>
-    <li>Co dalšího Vám mohu a nemohu zatím nabídnout</li>
-    <li>Kontaktní údaje</li>
+<ul class="menu">
+    <li><a href="#omne">O mně</a></li>
+    <li><a href="#praxe">Praxe</a></li>
+    <li><a href="#vzdelani">Vzdělání</a></li>
+    <li><a href="#znalosti">Znalosti a dovednosti</a></li>
+    <li><a href="#kontakt">Kontaktní údaje</a></li>
 </ul>
 
 <!-- Sekce O mně-->
-<section>
+<section class="omne" id="omne">
 <h2>O mně</h2>
-<img src="fotografie/IMG_20200707_164627.jpg" alt="Petra Pekařová">
+
+<img class="mojefoto" src="fotografie/IMG_20200707_164627.jpg" alt="Petra Pekařová">
 
 <p>Vystudovaná fotografka, nadšená gamerka, IT recruiterka, která zatoužila po profesní změně.</p>
 
@@ -41,7 +44,7 @@ a spoustu času, tak věřím, že to bude stát za to.</p>
 </section>
 
 <!--Sekce Praxe-->
-<section>
+<section class="praxe" id="praxe">
 <h2>Praxe</h2>
 <h3>IT Recruiter, teamIT s.r.o.</h3>
 <h4>8/2021 - dosud</h4>
@@ -82,18 +85,21 @@ a spoustu času, tak věřím, že to bude stát za to.</p>
 </section>
 
 <!-- Sekce Vzdělání-->
-<section>
+<section class="vzdelani" id="vzdelani">
+
 <h2>Vzdělání</h2>
-<ul>
-<li>2012 – 2015	VOŠ Podskalská, Praha. Obor: personální řízení</li>
-<li>2010 – 2012	Střední odborné učiliště gastronomie, Praha. Obor: podnikání</li>
-<li>2007 – 2010	SOU Karoliny Světlé, Jihlava. Obor: fotograf</li>
-</ul>
+    <ul>
+        <li>2012 – 2015	VOŠ Podskalská, Praha. Obor: personální řízení</li>
+        <li>2010 – 2012	Střední odborné učiliště gastronomie, Praha. Obor: podnikání</li>
+        <li>2007 – 2010	SOU Karoliny Světlé, Jihlava. Obor: fotograf</li>
+    </ul>
 </section>
 
 <!--Sekce Znalosti, dovednosti, atd.-->
-<section>
-<h2>Co dalšího Vám mohu a nemohu zatím nabídnout</h2>
+<section class="znalosti" id="znalosti">
+
+<h2>Znalosti a dovednosti</h2>
+
 <p>Mou slabou stránkou je zatím angličtina. Celý svůj studijní život jsem zasvětila biflováním němčiny a angličtina mě bohužel minula.
 Proto se snažím všemi možnými prostředky (filmy, seriály, Duolingo, dopisování v angličtině s lidmi na sociálních sítích)
 s tím něco udělat.</p>
@@ -101,24 +107,23 @@ s tím něco udělat.</p>
 <table>
     <tr>
         <td>Řidičský průkaz</td>
-        <td>B</td>
+        <td class="druh">B</td>
     </tr>
     <tr>
         <td>MS Office</td>
-        <td>pokročilá znalost</td>
+        <td class="druh">pokročilá znalost</td>
     </tr>
     <tr>
         <td>Photoshop</td>
         <td>základní znalost</td>
     </tr>
 
-    
 </table>
 </section>
 
 <!--Sekce kontakt-->
-<section>
-<h2>Kontaktní údaje</h2>
+<section class="kontakt" id="kontakt">
+<h2>Kontakt</h2>
 <p>
     Petra Pekařová<br>
     U Zahradního města 2c<br>
@@ -133,7 +138,7 @@ s tím něco udělat.</p>
 </p>
 </section>
 
-<footer>
+<footer class="paticka">
 <p>Petra Pekařová CV 2022</p>
 </footer>
 

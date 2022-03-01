@@ -1,6 +1,6 @@
 body{
-    color: #FFDEAD;
-    background-color: #BC8F8F;
+    color: snow;
+    background-color: #946185;
     font-family: 'Montserrat Alternates';
     font-size: 20px;
     line-height: 1.5;
@@ -16,15 +16,15 @@ h3 {
 
 h1 {
     font-size: 90px;
+    font-weight: bold;
     text-align: center;
-    background-color: #2F4F4F;
+    background-color: #5F9EA0;
     margin: 0;
 }
 
 h2 {
     font-size: 40px;
     text-align: center;
-    background-color: #2F4F4F;
     margin: 0;
 }
 
@@ -33,3 +33,51 @@ h3 {
     margin: 0;
     font-style: italic;
 }
+
+
+.mojefoto {
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    margin: 30px 30px 30px 30px;
+}
+
+.paticka {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.praxe,
+.kontakt {
+    background-color: #5F9EA0;
+}
+
+section {
+    padding: 50px 15%;
+    overflow: auto;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+}
+
+.menu li {
+    display: inline-block;
+    background-color: black;
+}
+.menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active
+
