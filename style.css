@@ -1,0 +1,35 @@
+body{
+    color: #FFDEAD;
+    background-color: #BC8F8F;
+    font-family: 'Montserrat Alternates';
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    color: #FFF8DC;
+}
+
+
+h1 {
+    font-size: 90px;
+    text-align: center;
+    background-color: #2F4F4F;
+    margin: 0;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    background-color: #2F4F4F;
+    margin: 0;
+}
+
+h3 {
+    font-size: 25px;
+    margin: 0;
+    font-style: italic;
+}
